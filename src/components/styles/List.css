@@ -1,0 +1,73 @@
+.list{
+    display: flex;
+    width: 432px;
+    border: 1px solid rgb(207, 211, 207);
+    margin-top: 12px;
+    height: 55px;
+    margin: 0px 0;
+    border-top: 1px;
+}
+
+.clear-button{
+    margin-left: 350px;
+    margin-top: 13px;
+    position: fixed;
+    height: 30px;
+    color: white;
+    
+    border: 1px;
+    border-radius: 4px;
+    font-size: 15px;
+    width: 5%;
+    height: 22px;
+}
+
+.clear-button {background-color: rgb(66, 66, 240);}
+
+.clear-button:active {
+    background-color: rgb(66, 66, 240);;
+    box-shadow: 0 1px #666;
+    transform: translateY(1px);
+}
+
+.checkbox-button{
+    position: absolute;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin-left: 14px;
+    margin-top: 18px;
+    height: 20px;
+    border-color: white;
+    border-bottom: 0ch;
+    border-right: 0ch;
+}
+
+
+.list-p{
+    margin-left: 40px;
+    font-size: 18px;
+    margin-top: 14px;
+}
+
+.delete-button{
+    margin-left: 350px;
+    margin-top: 13px;
+    height: 30px;
+    border: 1px;
+    border-radius: 4px;
+    color: rgb(224, 220, 211);
+    font-size: 15px;
+    position: absolute;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+
+.delete-button {background-color: rgb(226, 51, 51);}
+
+.delete-button:active {
+    background-color: rgb(226, 51, 51);
+    box-shadow: 0 1px #666;
+    transform: translateY(1px);
+}
+

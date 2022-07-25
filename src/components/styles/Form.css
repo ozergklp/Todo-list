@@ -1,0 +1,31 @@
+.form{
+    position: relative;
+    top: 50px;
+}
+
+.form-input{
+    position: relative;
+    width: 120%;
+    height: 32px;
+    box-sizing: border-box;
+}
+
+.form-button{
+    position: relative;
+    left: 386px;
+    padding: 5px;
+    bottom: 31px;
+    width: 15%;
+    height: 31px;
+    color: beige;
+    border: 1ch;
+    border-radius: 4px;
+}
+
+.form-button {background-color: rgb(66, 66, 240);}
+
+.form-button:active {
+    background-color: rgb(66, 66, 240);;
+    box-shadow: 0 1px #666;
+    transform: translateY(1px);
+}

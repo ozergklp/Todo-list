@@ -1,0 +1,33 @@
+.alert{
+    height: 46px;
+}
+
+.alert-p{
+    position: relative;
+    top: 23px;
+    height: 32px;
+    background-color: #f44336;
+    width: 132%;
+    text-align: left;
+    padding-top: 10px;
+    color: white;
+    padding-left: 12px;
+    border-radius: 8px;
+}
+
+.alert-button{
+    position: relative;
+    left: 395px;
+    bottom: 35px;
+    height: 40px;
+    width: 30px;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: #f44336;
+    border: 1px;
+    cursor: pointer;
+}
+
+.alert-button:hover{
+    color: black;
+}
